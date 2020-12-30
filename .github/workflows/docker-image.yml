@@ -21,7 +21,7 @@ jobs:
       run: |
         echo $USER
         echo $PASS
-        docker build . --file Dockerfile --tag nileshgulve/dcm_nginx_Git_Exam
+        docker build . --file Dockerfile --tag nileshgulve/dcm_nginx_git_exam
         docker login -u $USER -p $PASS
         
-        docker push nileshgulve/dcm_nginx_Git_Exam:latest
+        docker push nileshgulve/dcm_nginx_git_exam:latest
